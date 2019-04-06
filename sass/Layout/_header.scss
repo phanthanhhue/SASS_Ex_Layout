@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+    transition: all 0.5s;
+    .navbar-brand {
+        margin: 0 10%;
+        span {
+            font-weight: $fw-bold-1;
+            padding-left: $pd-3;
+        }
+    }
+
+}

@@ -1,0 +1,63 @@
+.footer {
+    padding-top: $pd-3;
+    background-color: $color-black-dark;
+    h1 {
+        color: $color-white-0;
+        font-size: $fs-3;
+        font-weight: $fw-bold;
+    }
+    .input-group {
+        margin: $mg-2 0;
+        .form-control {
+            border-radius: 0;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border: 1px solid $color-white-0;
+            background-color: $color-black-dark;
+        }
+        .input-group-append {
+            .input-group-text {
+                background-color: $color-blue;
+                border: 1px solid $color-blue;
+                border-radius: 0;
+                border-top-right-radius: 3px;
+                border-bottom-right-radius: 3px;
+                color: white;
+                &:hover {
+                    cursor: pointer;
+                }
+            }            
+        }  
+    }
+    
+    .right {
+        text-align: right;
+        h2 {
+            font-size: $fs-2;
+            color: $color-gray-4;
+            margin-bottom: $mg-2;
+        }
+        span {
+            color: $color-gray-4;
+            padding-right: $pd-3;
+        }
+        .fa-facebook {
+            color: $color-white-cream;
+            padding: 10px 15px;
+            border: 1px solid $color-white-cream;
+        }
+        .fa-twitter {
+            color: $color-white-cream;
+            padding: 10px 11px;
+            border: 1px solid $color-white-cream;
+        }
+        .fa-linkedin {
+            color: $color-white-cream;
+            padding: 10px 12px;
+            border: 1px solid $color-white-cream;
+        }
+        .fa {
+            font-size: $fs-2;
+        }
+    }
+}

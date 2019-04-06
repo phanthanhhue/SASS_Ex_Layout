@@ -1,0 +1,53 @@
+.complier-heading {
+    font-size: 50px;
+    font-weight: $fw-bold;
+}
+.complier-text {
+    font-size: $fs-2;
+}
+
+.bite-sized {
+    img {
+        display: block;
+        width: 400px;
+    }
+}
+
+.recognized {
+    .complier-heading{
+        padding-top: 200px;        
+        transform: translate(50%);
+        text-align: center;
+        position: relative;
+    }
+    img {
+        display: block;
+        padding-top: 40px;
+        position: relative;  
+        top: 50%;
+        left: 50%;
+        justify-items: center;
+        justify-content: center;
+        box-shadow: 10px $color-gray-2;
+    }
+}
+
+.testimonial, .testimonial-img {
+    text-align: center;
+    width: 100% !important;
+}
+
+.slick-list .img-responsive {
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+}
+
+.center {
+    width: 100%;
+    margin: auto;
+}
+.grid .slick-list  {
+    width: 100%;
+}

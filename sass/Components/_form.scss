@@ -1,0 +1,18 @@
+
+.contact-left {
+    .form-control {
+        margin: 20px 0;
+        display: inline-block
+    }
+    margin-top: 200px;
+    #yourName {
+        width: 45%;
+    }
+    #yourEmail {
+        width: 45%;
+        float: right;
+    }
+    .txtarea {
+        width: 100%;
+    }
+}

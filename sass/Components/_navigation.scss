@@ -1,0 +1,101 @@
+.header {
+    .navbar-brand {
+        margin: 0;
+    }      
+    .collapse {
+        justify-content: end;
+        .navbar-nav {
+            .active {
+                .nav-link{
+                color: $color-blue;
+                } 
+            }
+            .nav-link {
+                color: $color-black-0;
+                padding-top: $pd-2;
+                padding-right: $pd-3;
+                &:hover {
+                    color: $color-blue;
+                }
+            }
+        }
+    }
+}   
+
+
+
+.bottom-nav {  
+    padding-top: $pd-2;                 
+    li {
+        list-style: none;
+        display: inline;
+        a {
+            color: white;
+            text-decoration: none;
+            padding: $pd-2;
+        }
+    }
+}
+
+// ABOUT NAV
+
+.about-nav {
+    padding-top: 200px;
+    .nav {
+        width: 46.4%;
+        margin: auto;
+        margin-bottom: 40px;
+        justify-content: center;
+        border-radius: 60px;
+        background-color: $color-white-cream;
+        .nav-item {
+            .nav-link {
+                padding: 10px 60px;
+                border-radius: 60px;
+                color: $color-black-light;
+                background-color: $color-white-cream;
+            }
+            .active {
+                background: linear-gradient(to bottom, #92bff9, #788edf);
+                outline: none;
+            }
+        }
+    }
+    .tab-content {
+        .tab-pane {
+            h1 {
+                justify-content: center;
+                margin: auto;
+                margin-bottom: 30px;
+            } 
+            .team_item {
+                margin: 30px 0;
+                .front {
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                    position: relative;
+                    width: 80%;
+                    &:hover {
+                        transform: rotateY(90deg);
+                        backface-visibility: hidden;
+                        transition: all 0.5s;
+                    }
+                }
+                .back {
+                    position: absolute;
+                    left: 20px;
+                    top: 0;
+                    width: 70%;
+                    height: 100%;
+                    background-color: #92bff9;
+                    padding: 20px;
+                    z-index: -10;
+                    // transform: rotateY(-90deg);
+                }
+            }
+        }
+    }
+}
+
